@@ -1,0 +1,428 @@
+f1::
+
+loop{
+ 
+
+
+;Random Variable Declarations
+	
+	;inventory
+	
+			;top row
+	
+		random, invx2, 1334, 1350
+		random, invy2, 747, 765
+		
+		random, invx3, 1376, 1394
+		random, invy3, 747, 765
+		
+		random, invx4, 1421, 1436
+		random, invy4, 747, 765
+		
+			;second row
+		
+		random, invx5, 1295, 1312
+		random, invy5, 783, 804
+		
+		random, invx6, 1334, 1350
+		random, invy6, 783, 804
+		
+		random, invx7, 1376, 1394
+		random, invy7, 783, 804
+		
+		random, invx8, 1421, 1436
+		random, invy8, 783, 804
+		
+			;third row
+		
+		random, invx9, 1295, 1312
+		random, invy9, 821, 841
+		
+		random, invx10, 1334, 1350
+		random, invy10, 821, 841
+		
+		random, invx11, 1376, 1394
+		random, invy11, 821, 841
+		
+		random, invx12, 1421, 1436
+		random, invy12, 821, 841
+		
+			;fourth row
+		
+		random, invx13, 1295, 1312
+		random, invy13, 857, 875
+		
+		random, invx14, 1334, 1350
+		random, invy14, 857, 875
+		
+		random, invx15, 1376, 1394
+		random, invy15, 857, 875
+		
+		random, invx16, 1421, 1436
+		random, invy16, 857, 875
+		
+			;fifth row
+		
+		random, invx17, 1295, 1312
+		random, invy17, 893, 913
+		
+		random, invx18, 1334, 1350
+		random, invy18, 893, 913
+		
+		random, invx19, 1376, 1394
+		random, invy19, 893, 913
+		
+		random, invx20, 1421, 1436
+		random, invy20, 893, 913
+		
+			;sixth row
+		
+		random, invx21, 1295, 1312
+		random, invy21, 929, 947
+		
+		random, invx22, 1334, 1350
+		random, invy22, 929, 947
+		
+		random, invx23, 1376, 1394
+		random, invy23, 929, 947
+		
+		random, invx24, 1421, 1436
+		random, invy24, 929, 947
+		
+			;seventh row
+		
+		random, invx25, 1295, 1312
+		random, invy25, 966, 984
+		
+		random, invx26, 1334, 1350
+		random, invy26, 966, 984
+		
+		random, invx27, 1376, 1394
+		random, invy27, 966, 984
+		
+		random, invx28, 1421, 1436
+		random, invy28, 966, 984
+		
+	
+	;banker
+	
+		random, bankerx, 790, 886
+		random, bankery, 271, 405
+		
+	;bank item row 4 line 5
+	
+		random, bankitemx, 757, 769
+		random, bankitemy, 239, 253
+	
+	;second slot inv 
+	
+		
+		random, secondslotx, 1334, 1394
+		random, secondsloty, 747, 765
+		
+	;magic cast
+	
+		random, magicx, 1357, 1379
+		random, magicy, 847, 868
+	
+	;close bank
+		random, closebankx, 918, 928
+		random, closebanky, 59, 69
+		
+	;mousemove random?
+		
+;sleeps
+	
+	;main sleep
+		random, s1, 250, 350
+		
+	;sleep between casts
+		random, s2, 250, 350
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+;script start
+		
+
+mousemove, magicx, magicy, 8
+sleep s2
+click
+sleep s2
+mousemove, invx2, invy2, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx3, invy3, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx4, invy4, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx5, invy5, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx6, invy6, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx7, invy7, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx8, invy8, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx9, invy9, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx10, invy10, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx11, invy11, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx12, invy12, 11
+sleep s2
+click
+sleep s2
+
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx13, invy13,11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx14, invy14, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx15, invy15, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx16, invy16, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx17, invy17, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx18, invy18, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx19, invy19, 11
+sleep s2
+click
+sleep s2
+
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx20, invy20, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx21, invy21, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx22, invy22, 11
+sleep s2
+click
+sleep s2,
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx23, invy23, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx24, invy24, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx25, invy25, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx26, invy26, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx27, invy27, 11
+sleep s2
+click
+sleep s2
+
+mousemove, magicx, magicy, 8
+sleep s2 
+click
+sleep s2
+mousemove, invx28, invy28, 11
+sleep s2
+click
+sleep s2
+
+mousemove, bankerx, bankery, 8
+sleep s2
+click
+sleep s2
+
+send {shift down}
+
+mousemove, invx2, invy2, 8
+sleep s2
+click
+sleep s2
+
+mousemove, bankitemx, bankitemy, 8
+sleep s2
+click
+sleep s2
+sleep s2
+
+send {shift up}
+
+mousemove, closebankx, closebanky, 8
+sleep s2
+click
+sleep s2
+sleep s2
+}
+f2::reload
+f3::exitapp	
+
